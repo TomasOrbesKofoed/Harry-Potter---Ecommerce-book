@@ -14,6 +14,7 @@
 #header {
     font-size: 5vw;
     color: white;
+    padding: 3vw 0 1vw 4vw;
 }
 
 .container__card {
@@ -63,7 +64,7 @@
     text-decoration: underline;
 }
 
-#container_header, #book1 {
+#header, #book1 {
     background-color: rgb(54, 1, 11);
 }
 #book2 {
