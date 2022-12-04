@@ -4,30 +4,124 @@
     box-sizing: border-box;
 }
 
-#container_header {
-    height: 10vw;
-    display: flex;
-    align-items: center;
-    padding-left: 1rem;
+/* Propiedades de container y sus hijos */
+#container {
+    height: 100vh;
+    color: white;
+    width: 100vw;
 }
 
 #header {
+    padding: 3vw 0 3vw 4vw;
     font-size: 5vw;
-    color: white;
-    padding: 3vw 0 1vw 4vw;
+    max-height: 10vh;
+}
+
+#book1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 3rem 0;
+    height: 90vh;
+}
+
+/* Clases */
+.book__img {
+    width: 80%;
+    box-shadow: 2vw 2vw 5px black;
 }
 
 .container__card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     max-width: 100%;
+    height: 100vh;
+    padding: 1rem 0 3rem 0;
+    color: white;
+}
+
+.book__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.book__tittle {
+    font-size: 4vw;
+    color:white;
+}
+
+.book__link1 {
+    text-decoration: none;
+    font-size: 3vw;
+    color: white;
+}
+
+.book__link1:hover{
+    text-decoration: underline;
+}
+
+.book__link2 {
+    text-decoration: none;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.book__link2:hover {
+    text-decoration: underline;
+}
+div p {
+    font-size: 2.5vw;
+}
+
+/* Background color */
+#container {
+    background-color: rgb(54, 1, 11);
+}
+#book2 {
+    background-color: rgb(15,97,72);
+}
+#book3 {
+    background-color: rgb(10, 13, 52);
+}
+#book4 {
+    background-color: rgb(4, 27, 55);
+}
+#book5 {
+    background-color: rgb(111, 10, 56);
+}
+#book6 {
+    background-color: rgb(114, 23, 39);
+}
+#book7, #footer {
+    background-color: rgb(0, 95, 62);
+}
+
+/* Footer */
+#footer {
+    font-size: 3vw;
+    color: white;
+    padding-left: 2vw;
+}
+/* 
+.container__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 100vh;
     padding: 1rem 0 3rem 0;
     color: white;
 }
 
 .book__img {
-    width: 70%;
+    width: 80%;
     box-shadow: 10px 10px 5px black;
 }
 
@@ -63,8 +157,8 @@
 .book__link2:hover {
     text-decoration: underline;
 }
-
-#header, #book1 {
+/* Background color */
+/* #container {
     background-color: rgb(54, 1, 11);
 }
 #book2 {
@@ -90,9 +184,6 @@
     font-size: 3vw;
     color: white;
     padding-left: 2vw;
-}
+} */
 
-@media (min-width: 768px) {
-    
-}
 
